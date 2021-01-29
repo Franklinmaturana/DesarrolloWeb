@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de como usar a nivel basico GIT</title>
+</head>
+<body>
+    <h1>Primero</h1>
+    <p>
+        Primero debemos crear una cuenta en Github y descargar Git 
+        <br>
+        al tener la cuenta creada, creamos un repositorio.
+        <br>
+        Le damos un nombre, una descripcion, seleccionamos si el proyecto sera publico o privado, y dejamos sin marcar el check
+        <br>
+        de crear el README.Le damos a crear repositorio y con eso ya tenemos el repositorio donde alojaremos nuestro proyecto.
+        <hr>
+        Posteriormente desde <em>la terminal</em>
+        <br>
+        Debemos hacer una configuracion base de git con los siguientes comandos:
+        <ul>
+            <li>git config --global user.name "Tu nombre"</li>
+            <li>git config --global user.email "Tu correo de github"</li>
+        </ul>
+        <br>
+        Luego
+         <strong>vamos a la carpeta donde esta nuestro proyecto</strong>
+        <br>
+        y ejecutamos los siguientes comandos
+        <ul>
+            <li>git init</li>
+            <li>git add .</li>
+            <li>git commit -m "Comentario" </li>
+            <li>git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git</li>
+            <li>li>git push -u origin master</li>
+        </ul>
+    </p>
+    <div>
+        <h2>Como clonar repositorios</h2>
+        <p>
+            Para clonar un repositorio hacemos uso del siguiente comando:
+            <ul>
+                <li>git clone linkdelrepositorio</li>
+                ejemplo:
+                <li>git clone https://github.com/Phoenix-encoder/DesarrolloWeb</li>
+            </ul>
+        </p>
+    </div>
+</body>
+</html>
